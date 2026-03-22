@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Wiki - موسوعة الألعاب</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* الخطوط والألوان */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #121212;
+            /* أسود داكن */
+            color: #ffffff;
+        }
+
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffcc00;
+        }
+
+        /* رأس الصفحة */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(90deg, #1f1f1f, #333333);
+        }
+
+        header h1 {
+            font-size: 50px;
+            color: #00ffcc;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        /* صندوق البحث */
+        header input {
+            width: 50%;
+            padding: 15px;
+            border-radius: 30px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            background: #222222;
+            color: #fff;
+        }
+
+        header input::placeholder {
+            color: #888888;
+        }
+
+        /* الحاوية الرئيسية */
+        .container {
+            display: flex;
+            padding: 30px 50px;
+        }
+
+        /* القائمة الجانبية */
+        aside {
+            width: 25%;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+
+        aside h3 {
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside li {
+            margin: 10px 0;
+        }
+
+        aside li a {
+            font-size: 18px;
+        }
+
+        /* المحتوى الرئيسي */
+        main {
+            flex: 1;
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        main h2 {
+            font-size: 32px;
+            color: #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        article {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        article h3 {
+            font-size: 28px;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #dddddd;
+        }
+
+        /* أزرار قراءة المزيد */
+        button {
+            background: #00ffcc;
+            color: #121212;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #ffcc00;
+            color: #121212;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+            margin-top: 50px;
+            color: #888888;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 Game Wiki</h1>
+        <p>موسوعة الألعاب الشاملة لكل اللاعبين</p>
+        <input type="text" placeholder="ابحث عن لعبة...">
+    </header>
+
+    <div class="container">
+
+        <aside>
+            <h3>📚 الأقسام</h3>
+            <ul>
+                <li><a href="#">فري فاير</a></li>
+                <li><a href="#">PUBG</a></li>
+                <li><a href="#">Call of Duty</a></li>
+                <li><a href="#">ألعاب أندرويد</a></li>
+                <li><a href="#">ألعاب PC</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2>مرحبا بك في Game Wiki</h2>
+            <p>
+                هذا الموقع يقدم معلومات وشروحات عن أشهر الألعاب، نصائح احترافية، وأخبار يومية لعالم الألعاب.
+            </p>
+
+            <article>
+                <h3>لعبة فري فاير</h3>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMhcIpfRb4A_Newk-rRpSA1a4YmiBOoRQ_g&s
+                " alt="Free Fire" style="width:100%; border-radius:10px;">
+                <p>
+                    فري فاير هي لعبة باتل رويال شهيرة، تضم 50 لاعبًا يتنافسون في خريطة واحدة للبقاء على قيد الحياة.
+                    يمكنك تحسين مهاراتك باتباع النصائح الاحترافية، واستخدام الأسلحة المناسبة، والتحرك بذكاء داخل اللعبة.
+                </p>
+                <button>اقرأ المزيد</button>
+            </article>
+
+            <article>
+                <h3>لعبة PUBG</h3>
+                <p>
+                    PUBG هي لعبة معروفة عالميًا في فئة الباتل رويال، تتميز برسومات واقعية وتجربة قتالية ممتعة. تعلم
+                    خريطة اللعبة واستراتيجيات النجاة لتصبح محترفًا بسرعة.
+                </p>
+                <button>اقرأ المزيد</button>
+            </article>
+
+        </main>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Game Wiki - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+
+</html>
